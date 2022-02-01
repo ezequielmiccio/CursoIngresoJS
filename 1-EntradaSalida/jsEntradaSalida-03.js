@@ -1,11 +1,13 @@
-/*
-Debemos lograr tomar un dato por 'ID'
-y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
+// Ezequiel Miccio - DIV I
+// ES 03
+
 function mostrar()
 {
-	var nombreIngresado;
-	nombreIngresado=txtIdNombre.value;
-	alert("ok");
+	var nombreDelEmpleado;
+
+	nombreDelEmpleado = document.getElementById("txtIdNombre").value;
+
+	alert(nombreDelEmpleado);
 
 }
 

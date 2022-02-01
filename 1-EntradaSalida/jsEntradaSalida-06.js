@@ -1,9 +1,21 @@
-/*
-Debemos lograr tomar Los numeros por ID ,
-transformarlos a enteros (parseInt) y Sumarlos.
-mostrar el resulto por medio de "ALERT"*/
+// Ezequiel Miccio - DIV I
+// ES 06
+
 function sumar()
 {
-	alert("ok");
+	
+	var numeroUno;
+	var numeroDos;
+
+	numeroUno = parseInt(document.getElementById("txtIdNumeroUno").value);
+	numeroDos = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	var resultado = numeroUno + numeroDos;
+	alert(resultado);
+
 }
+
+// id 1: txtIdNumeroUno
+// id 2: txtIdNumeroDos
+
 

@@ -6,16 +6,13 @@ function sumar()
 	
 	var numeroUno;
 	var numeroDos;
+	var resultado;
 
 	numeroUno = parseInt(document.getElementById("txtIdNumeroUno").value);
 	numeroDos = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-	var resultado = numeroUno + numeroDos;
-	alert(resultado);
+	resultado = numeroUno + numeroDos;
+	alert("la suma es de " + resultado);
 
 }
-
-// id 1: txtIdNumeroUno
-// id 2: txtIdNumeroDos
-
 
